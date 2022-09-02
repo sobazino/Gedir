@@ -15,7 +15,7 @@ An AI companion who is eager to learn and would love to see the world through yo
 
 <img src="Image/map.png" alt="Gedir">
 
-core :
+**core (AI_core):**
 
 ```
 [1] index.php
@@ -23,7 +23,7 @@ core :
 [3] list.txt
 ```
 
-application :
+**application (Gedir):**
 
 ```
 [1] MainActivity.java
