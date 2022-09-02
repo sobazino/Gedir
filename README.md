@@ -12,6 +12,9 @@ An AI companion who is eager to learn and would love to see the world through yo
 </br>
 
 <img src="Image/gedir.png" alt="Gedir">
+<img src="https://img.shields.io/github/languages/count/sobazino/gedir">
+<img src="https://img.shields.io/github/license/sobazino/gedir">
+<img src="https://img.shields.io/github/stars/sobazino/gedir?style=social">
 
 ---
 
