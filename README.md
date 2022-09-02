@@ -10,4 +10,8 @@ An AI companion who is eager to learn and would love to see the world through yo
 
 <img src="Image/map.png" alt="Gedir">
 
-Thank you so much for reading!
+**Ideas, feedback, and contributions to code are all very welcome.**
+
+### License
+
+Gedir is licensed under the [MIT license](https://github.com/sobazino/AI_Gedir/blob/main/LICENSE).
