@@ -1,0 +1,69 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>sobazino | سوبازینو</title>
+	<link rel="stylesheet" href="panel.css">
+</head>
+<body>
+<div class="box">
+	<div class="cbox">
+		<div class="cboxr">
+			<div class='iboxr'><div class='lboxr'></div><h3>GEDIR</h3></div>
+			<div class="load" id="lg"><div></div><div></div><div></div><div></div></div>
+		</div>
+		<div class="sw"></div>
+	</div>
+	<div class="_Hbox" id="chat">
+		<div class="_H2" id="scroll"></div>
+		<div class="_H3">
+			<!--placeholder="Message text . . ." => placeholder="متن پیام . . ."-->
+			<input id="text" type="text" name="chat" maxlength="1500" placeholder="متن پیام . . .">
+			<!-- Submit => ارسال-->
+			<div class="button" id="send" onclick="Send();">ارسال</div>
+		</div>
+	</div>
+</div>
+</body>
+<script>
+var elm = document.getElementById("scroll");
+var chat = document.getElementById("text");
+var loading = document.getElementById("lg");
+
+elm.innerHTML = '<div class="ms" id="header"><div class="chat" id="start"><p>-_-</p></div></div>';
+
+function Zero(i) {
+  if (i < 10) {i = "0" + i}
+  return i;
+}
+function Time() {
+	var d = new Date();
+	return Zero(d.getHours()) + ":" + Zero(d.getMinutes());
+}
+function Scroll() {
+	elm.scrollTop = elm.scrollHeight;
+}
+function Response(text,cht) {
+	setTimeout(function(){
+		elm.innerHTML += '<div class="ms"><div id="zchR" class="zch"><span>'+Time()+'</span></div><div class="chat"><div class="ichat"><div></div></div><small>'+cht+'</small><p>'+text+'</p></div></div></div>';
+
+		Scroll();
+		loading.style.cssText = "opacity: 0; padding: 0;";
+	}, 800);
+}
+function Send() {
+	if (chat.value != "") {
+		elm.innerHTML += '<div class="ms"><div class="zch"><span>'+Time()+'</span></div><div class="chat" id="chats"><p>'+chat.value+'</p></div></div>';
+		Android.Response(chat.value);
+		chat.value = "";
+		Scroll();
+		loading.style.cssText = "opacity: 1; padding: 5px 0 10px 0;";
+	}
+}
+chat.addEventListener("keypress", function(event) {
+ 	if (event.key === "Enter") {
+		event.preventDefault();
+    	Send();
+  	}
+});
+</script>
+</html>
