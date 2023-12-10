@@ -1,5 +1,5 @@
 <?php
-
+//This code is just a test.
 function similarity($s1, $s2) {
     $longer = $s1;
     $shorter = $s2;
