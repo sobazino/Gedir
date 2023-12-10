@@ -1,4 +1,5 @@
 <?php
+//This code is just a test.
 require "Similarity.php";
 
 if (!empty($_GET['T'])) {
