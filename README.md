@@ -29,8 +29,8 @@ An AI companion who is eager to learn and would love to see the world through yo
 
 ```
 [1] index.php
-[2] Similarity.php
-[3] list.txt
+[2] list.txt
+[3] Similarity.php
 ```
 
 **application (Gedir):**
