@@ -25,7 +25,7 @@ An AI companion who is eager to learn and would love to see the world through yo
 
 <img src="Image/map.png" alt="map">
 
-**core (AI_core):**
+**core:**
 
 ```
 [1] index.php
