@@ -37,8 +37,8 @@ An AI companion who is eager to learn and would love to see the world through yo
 
 ```
 [1] MainActivity.java
-[2] at.java
-[3] sz.java
+[2] sz.java
+[3] at.java
 [4] index.html
 [5] panel.css
 ```
