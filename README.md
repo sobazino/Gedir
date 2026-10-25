@@ -36,10 +36,10 @@ An AI companion who is eager to learn and would love to see the world through yo
 **application (Gedir):**
 
 ```
-[1] MainActivity.java
+[1] index.html
 [2] sz.java
 [3] at.java
-[4] index.html
+[4] MainActivity.java
 [5] panel.css
 ```
 
