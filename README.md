@@ -14,8 +14,8 @@ An AI companion who is eager to learn and would love to see the world through yo
 <img src="Image/gedir.png" alt="Gedir">
 <p align="center">
 <img src="https://img.shields.io/github/languages/count/sobazino/gedir">
-<img src="https://img.shields.io/github/license/sobazino/gedir">
 <img src="https://img.shields.io/badge/Roadmap-2022-yellowgreen.svg">
+<img src="https://img.shields.io/github/license/sobazino/gedir">
 <img src="https://img.shields.io/badge/Author-Mehran%20Nosrati-blue.svg">
 </p>
 
